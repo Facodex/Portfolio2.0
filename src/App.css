@@ -1,0 +1,122 @@
+/* color of page #00BFA6 #111 #222 */
+body{
+  background-color: #111;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Mulish', sans-serif;
+}
+.App{
+  display: grid;
+  grid-template-columns: 150px 1fr;
+  grid-template-areas: 'sidebar main';
+}
+/* sidebar  */
+.sidebar{
+  grid-area: sidebar;
+  width: 150px;
+  height: 100vh;
+  background-color: #222;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  position: fixed;
+}
+.sidebarImg{
+  width: 100px;
+  height: 100px;
+}
+.sidebar ul{
+  list-style: none;
+  display: contents;
+  color: #555;
+}
+.sidebar li{
+  font-weight: bold;
+}
+.NavSocialLinks{
+  width: 70%;
+  display: flex;
+  justify-content: space-around;
+}
+.NavSocialLinks a{
+  transition: 0.3s;
+  opacity: 0.7;
+}
+.NavSocialLinks a:hover{
+  opacity: 1;
+  transform: scale(1.2, 1.2);
+}
+.NavSocialLinks img{
+  width: 30px;
+  height: 30px;
+}
+
+/* Main section  */
+.mainSection{
+  grid-area: main;
+}
+
+/* FrontPage */
+.frontPage{
+  width: 100%;
+  height: 90vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.frontPage h2{
+  color: #555;
+  font-size: 2em;
+}
+.frontPage h1{
+  margin-top: 0px;
+  margin-bottom: 0px;
+  color: #eee;
+  font-weight: 700;
+  font-size: 4.5em;
+}
+.btnContact{
+  background-color: #04a08b;
+  font-size: 20px;
+  width: 170px;
+  height: 50px;
+  border: none;
+  color: #eee;
+  margin-top: 40px;
+  transition: 0.5s;
+}
+.btnContact:hover{
+  background-color: #08473e;
+  opacity: 0.5;
+}
+
+/* scroll section  */
+.scrollContainer{
+  width: 100%;
+  height: 3vh;
+  display: flex;
+  justify-content: center;
+  animation: scroll-animation 3s ease-in-out infinite;
+}
+@keyframes scroll-animation {
+  0% {
+    -webkit-transform: translateY(-15px);
+    transform: translateY(-15px);
+    opacity: 0;
+  }
+  50% {
+      opacity: .3;
+  }
+  100% {
+      -webkit-transform: translateY(15px);
+      transform: translateY(15px);
+      opacity: 0;
+  }
+}
+
+.scrollImg{
+  width: 100px;
+  height: 50px;
+}
