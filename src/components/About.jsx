@@ -5,7 +5,7 @@ export const About = () => {
     return (
         <section className='aboutContainer'>
 
-            <h1 className='titleAbout'>About</h1>
+            <h1 className='titlesSections'>About</h1>
 
             <div className='aboutContent'>
 
@@ -20,8 +20,6 @@ export const About = () => {
                 </div>
 
                 <img className='imgAbout' src={imgFacu} />
-
-
 
             </div>
 

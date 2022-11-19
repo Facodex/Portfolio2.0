@@ -2,6 +2,7 @@ import React from 'react'
 import { About } from './About'
 import { FrontPage } from './FrontPage'
 import { ScrollDown } from './ScrollDown'
+import { Skills } from './Skills'
 
 export const Main = () => {
   return (
@@ -11,6 +12,8 @@ export const Main = () => {
         <ScrollDown/>
 
         <About/>
+
+        <Skills/>
     </div>
   )
 }
