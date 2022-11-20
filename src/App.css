@@ -11,6 +11,12 @@ body{
   grid-template-columns: 150px 1fr;
   grid-template-areas: 'sidebar main';
 }
+
+/* MENU MOBILE  */
+.MenuMobile{
+  display: none;
+  transition: all 1s;
+}
 /* sidebar  */
 .sidebar{
   grid-area: sidebar;
@@ -76,6 +82,9 @@ body{
   color: #eee;
   font-weight: 700;
   font-size: 4.5em;
+}
+.frontPageImg{
+  width: 250px;
 }
 .btnContact{
   background-color: #04a08b;
@@ -143,7 +152,7 @@ body{
 .aboutContent span{
   color: #04a08b;
 }
-.aboutContent div{
+.aboutText{
   display: block;
   margin-right: 35px;
   text-align: left;
@@ -171,8 +180,9 @@ body{
 .containerCardsSkills{
   display: flex;
   justify-content: center;
+  flex-wrap: wrap;
 }
-.containerCardsSkills div{
+.cardSkill{
   min-width: 300px;
   min-height: 300px;
   max-width: 300px;
@@ -181,6 +191,7 @@ body{
   padding-top: 10px;
   margin-right: 15px;
   margin-left: 15px;
+  margin-top: 15px;
 }
 .boxSkills{
   display: flex;
@@ -270,10 +281,9 @@ body{
   justify-content: center;
   color: #fff;
 }
-.containerCardsProjects div{
-  min-width: 40%;
+.itemProject{
+  width: 400px;
   min-height: 400px;
-  max-width: 40%;
   max-height: 400px;
   background-color: #222;
   padding-top: 10px;
@@ -320,4 +330,73 @@ body{
   display: flex;
   justify-content: center;
   align-items: flex-end;
+}
+
+/* MEDIAS  */
+@media screen and (max-width:768px){
+  /* APP */
+  .App{
+    display: block;
+  }
+  /* sidebar  */
+  .sidebar{
+    display: none;
+  }
+
+  /* frontpage  */
+  .frontPage{
+    display: block;
+  }
+  .frontPageImg{
+    display: none;
+  }
+  .frontPageContent{
+    text-align: center;
+  }
+
+  /* ABOUT  */
+  .aboutContent{
+    display: block;
+    padding: 10px 15px;
+  }
+  .aboutText{
+    text-align: center;
+    margin: 0 auto;
+  }
+  .aboutContent .imgAbout{
+    margin-top: 15px;
+  }
+
+  /* SKILLS  */
+  .cardSkill{
+    margin-top: 12px;
+  }
+
+  /* PROJECTS  */
+  .containerCardsProjects{
+    display: block;
+    text-align: center;
+  }
+  .itemProject{
+    width: 80%;
+    margin: 10px auto;
+    
+  }
+
+  /* MENU MOBILE  */
+  .MenuMobile{
+    color: #fff;
+    display: block;
+    text-align: center;
+    padding: 15px 15px;
+  }
+  .MenuMobileContainer{
+    display: flex;
+    width: 100%;
+    justify-content: flex-end;
+  }
+  .MenuMobileContainer img{
+    width: 35px;
+    height: 35px;
+  }
 }

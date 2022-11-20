@@ -10,7 +10,7 @@ export const FrontPage = () => {
             <h2>Web Developer</h2>
             <button className='btnContact'>Contact me</button>
         </div>
-        <img src={manLaptop} style={{width:'250px'}}/>
+        <img src={manLaptop} className='frontPageImg'/>
     </section>
   )
 }

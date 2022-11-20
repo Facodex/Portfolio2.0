@@ -5,15 +5,13 @@ export const Projects = () => {
     <section className='projectsSection'>
         <h1 className='titlesSections'>Projects</h1>
         <div className='containerCardsProjects'>
-            <div>
+            <div className='itemProject'>
                 <h3>React Blog</h3>
             </div>
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
+            <div className='itemProject'></div>
+            <div className='itemProject'></div>
+            <div className='itemProject'></div>
+            <div className='itemProject'></div>
         </div>
 
     </section>

@@ -9,7 +9,7 @@ export const About = () => {
 
             <div className='aboutContent'>
 
-                <div>
+                <div className='aboutText'>
                     <p>
                         Lorem ipsum dolor sit amet consectetur, <span>adipisicing elit</span>. Quidem vero numquam culpa
                         omnis distinctio suscipit placeat tempore ab? Quisquam dolorum delectus assumenda officiis doloremque provident labore sapiente

@@ -20,7 +20,7 @@ export const Skills = () => {
     <section className='skillsContainer'>
         <h1 className='titlesSections'>Skills</h1>
         <div className='containerCardsSkills'>
-            <div>
+            <div className='cardSkill'>
                 <img src={languages}/>
                 <h3>Languages</h3>
                 <ul className='boxSkills'>
@@ -46,7 +46,7 @@ export const Skills = () => {
                     </li>
                 </ul>
             </div>
-            <div>
+            <div className='cardSkill'>
                 <img src={frameworks}/>
                 <h3>Frameworks</h3>
                 <ul className='boxSkills'>
@@ -60,7 +60,7 @@ export const Skills = () => {
                     </li>
                 </ul>
             </div>
-            <div>
+            <div className='cardSkill'>
                 <img src={tools}/>
                 <h3>More Resources</h3>
                 <ul className='boxSkills'>
