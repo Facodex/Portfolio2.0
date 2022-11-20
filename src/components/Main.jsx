@@ -1,7 +1,10 @@
 import React from 'react'
 import { About } from './About'
+import { Contact } from './Contact'
 import { Experience } from './Experience'
+import { Footer } from './Footer'
 import { FrontPage } from './FrontPage'
+import { Projects } from './Projects'
 import { ScrollDown } from './ScrollDown'
 import { Skills } from './Skills'
 
@@ -18,7 +21,11 @@ export const Main = () => {
 
         <Experience/>
 
-        <footer style={{width:'100%', height:'100px', backgroundColor:'white', marginTop:'20px',}}></footer>
+        <Projects/>
+
+        <Contact/>
+
+        <Footer/>
     </div>
   )
 }
