@@ -198,3 +198,66 @@ body{
   width: 48px;
   height: 48px;
 }
+
+/* EXPERIENCE */
+
+.circleContainer{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.circle{
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: #08473e;
+  outline: 3px solid #04a08b;
+  z-index: 99;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+.circleSimple{
+  width: 23px;
+  height: 23px;
+  border-radius: 50%;
+  background-color: #222;
+  outline: 3px solid #555;
+  z-index: 99;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+.experienceRight{
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+}
+.experienceLeft{
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+}
+.experienceItemRight{
+  display: block;
+  width: 50%;
+  border-left: 3px dashed #555;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  overflow: hidden;
+}
+.experienceItemLeft{
+  display: block;
+  width: 50%;
+  border-right: 3px dashed #555;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  overflow: hidden;
+}
+
+.titleExperience{
+  margin: 25px;
+  color: #04a08b;
+}
+.pExperience{
+  margin: 25px;
+  color: #fff;
+}
