@@ -13,7 +13,7 @@
     },
     "About":{
         "title": "Sobre mi",
-        "p-one": "Mi nombre es Facundo y soy programador desde Argentina. Me apasiona crear paginas y aplicaciones web que me exigan a mejorar como profesional, mi objetivo es poder aportar en el desarrollo de proyectos que mejoren las experiencias de los usuarios y sean de gran utilidad dentro de Internet. ",
+        "p-one": "Mi nombre es Facundo y soy programador desde Argentina. Me apasiona crear paginas y aplicaciones web que me exijan a mejorar como profesional, mi objetivo es poder aportar en el desarrollo de proyectos que mejoren las experiencias de los usuarios y sean de gran utilidad dentro de Internet. ",
         "p-two": "Lo que me lleva a programar es el deseo de crear las herramientas que utilizo en el dia a dia, me encantan los videojuegos, ver series, usar las redes y usar blockchain y me emociona pensar que puedo ser parte de su desarrollo 😁",
         "btnDownload": "Descargar CV"
     },
@@ -35,6 +35,11 @@
         "experience-li-six": "Proyecto de curso: Creación de Blog con MEAN STACK (MongoDB, ExpressJS, Angular, NodeJS), TypeScript y Postman.",
         "experience-company": "Compañia: Your Inspiration Solutions",
         "experience-p": "Mantención y soporte a clientes mediante código JavaScript, JQuery, PHP y CSS en plugins compatibles con WordPress y WooCommerce."
+    },
+    "Contact":{
+        "title": "Contacto",
+        "contact-p": "Si tienes algun proyecto en el que quieres que forme parte, o solo quieres hablar sobre tecnología, hacerme alguna pregunta o darme tu feedback, no dudes en contactarme 👇",
+        "btnContact": "Contactame"
     }
 
 }

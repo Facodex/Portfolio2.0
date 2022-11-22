@@ -35,5 +35,10 @@
         "experience-li-six": "Project course: Blog creation with MEAN STACK (MongoDB, ExpressJS, Angular, NodeJS) TypeScript and Postman.",
         "experience-company": "Company: Your Inspiration Solutions",
         "experience-p": "Maintenance and customer support through JavaScript, JQuery, PHP y CSS code in plugins compatible with WordPress and WooCommerce."
+    },
+    "Contact":{
+        "title": "Contact",
+        "contact-p": "If you have a project in which you want me to be a part, or you want to talk about technology, ask me a question or give me your opinion, do not hesitate to contact me 👇",
+        "btnContact": "Contact me"
     }
 }

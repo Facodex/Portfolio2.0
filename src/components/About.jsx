@@ -1,6 +1,7 @@
 import React from 'react';
 import imgFacu from '../assets/images/facu.jpg';
 import { useTranslation } from 'react-i18next';
+import pdf from '../assets/documents/FacundoBenitezES.pdf'
 
 export const About = () => {
 
@@ -18,7 +19,7 @@ export const About = () => {
                     <p>{t("About.p-one")}</p>
                     <p>{t("About.p-two")}</p>
                     <button className='btnContact'>
-                        <a href="../assets/documents/FacundoBenitez-ES.pdf" target="_blank" rel="noopener noreferrer">
+                        <a href={pdf} download='FacundoBenitezES.pdf' target="_blank" rel="noopener noreferrer">
                             {t("About.btnDownload")}
                         </a>
                     </button>    

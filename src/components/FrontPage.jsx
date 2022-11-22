@@ -9,13 +9,17 @@ export const FrontPage = () => {
 
   return (
     <section className='frontPage'>
-        <div className='frontPageContent'>
-            <h2>{t("FrontPage.regard")}</h2>
-            <h1>Facundo Benitez</h1>
-            <h2>{t("FrontPage.job")}</h2>
-            <button className='btnContact'>{t("FrontPage.btnContact")}</button>
-        </div>
-        <img src={manLaptop} className='frontPageImg'/>
+      <div className='frontPageContent'>
+        <h2>{t("FrontPage.regard")}</h2>
+        <h1>Facundo Benitez</h1>
+        <h2>{t("FrontPage.job")}</h2>
+        <button className='btnContact' >
+          <a href="mailto:facu.cr9@gmail.com">
+            {t("FrontPage.btnContact")}
+          </a>
+        </button>
+      </div>
+      <img src={manLaptop} className='frontPageImg' />
     </section>
   )
 }
