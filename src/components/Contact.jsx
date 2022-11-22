@@ -5,7 +5,7 @@ import gmail from '../assets/icons/gmail-logo-24.png';
 
 export const Contact = () => {
     return (
-        <section className='contactSection'>
+        <section id='contact' className='contactSection'>
             <h1 className='titlesSections'>Contact</h1>
             <p className='pContact'>Lorem ipsum dolor, sit amet consectetur adipisicing elit.
                 Cumque sed, velit fugit eius

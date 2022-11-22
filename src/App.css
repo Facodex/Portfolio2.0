@@ -40,6 +40,11 @@ body{
 }
 .sidebar li{
   font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.sidebar li:hover{
+  color: #fff;
 }
 .NavSocialLinks{
   width: 70%;
@@ -57,6 +62,15 @@ body{
 .NavSocialLinks img{
   width: 30px;
   height: 30px;
+}
+.imgLanguages{
+  width: 25px;
+  height: 25px;
+  margin-right: 10px;
+  transition: 0.3s;
+}
+.imgLanguages:hover{
+  transform: scale(1.2, 1.2);
 }
 
 /* Main section  */
@@ -95,6 +109,10 @@ body{
   color: #eee;
   margin-top: 40px;
   transition: 0.5s;
+}
+.btnContact a{
+  text-decoration: none;
+  color: #eee;
 }
 .btnContact:hover{
   background-color: #08473e;

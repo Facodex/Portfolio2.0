@@ -1,7 +1,9 @@
-import React from 'react'
+import React from 'react';
+import { useTranslation } from 'react-i18next';
 import languages from '../assets/icons/terminal-regular-48.png';
 import frameworks from '../assets/icons/code-alt-regular-48.png';
 import tools from '../assets/icons/badge-check-solid-48.png';
+
 
 // skilss
 import js from '../assets/skills/javascript-logo-48.png';
@@ -16,13 +18,16 @@ import mongodb from '../assets/skills/mongodb-logo-48.png';0
 import wordpress from '../assets/skills/wordpress.png';
 
 export const Skills = () => {
+
+    const [t, i18n] = useTranslation("global");
+
   return (
-    <section className='skillsContainer'>
-        <h1 className='titlesSections'>Skills</h1>
+    <section id='skills' className='skillsContainer'>
+        <h1 className='titlesSections'>{t('Skills.title')}</h1>
         <div className='containerCardsSkills'>
             <div className='cardSkill'>
                 <img src={languages}/>
-                <h3>Languages</h3>
+                <h3>{t('Skills.languages')}</h3>
                 <ul className='boxSkills'>
                     <li>
                         <img src={html} />
@@ -48,7 +53,7 @@ export const Skills = () => {
             </div>
             <div className='cardSkill'>
                 <img src={frameworks}/>
-                <h3>Frameworks</h3>
+                <h3>{t('Skills.frameworks')}</h3>
                 <ul className='boxSkills'>
                     <li>
                         <img src={reactLang} />
@@ -62,7 +67,7 @@ export const Skills = () => {
             </div>
             <div className='cardSkill'>
                 <img src={tools}/>
-                <h3>More Resources</h3>
+                <h3>{t('Skills.moreResources')}</h3>
                 <ul className='boxSkills'>
                     <li>
                         <img src={githubSkill} />

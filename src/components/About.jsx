@@ -1,22 +1,27 @@
 import React from 'react';
-import imgFacu from '../assets/images/facu.jpg'
+import imgFacu from '../assets/images/facu.jpg';
+import { useTranslation } from 'react-i18next';
 
 export const About = () => {
-    return (
-        <section className='aboutContainer'>
 
-            <h1 className='titlesSections'>About</h1>
+    // t is the text translation and i18n is to buttons change language
+    const [t, i18n] = useTranslation("global");
+
+    return (
+        <section id='about' className='aboutContainer'>
+
+            <h1 className='titlesSections'>{t("About.title")}</h1>
 
             <div className='aboutContent'>
 
                 <div className='aboutText'>
-                    <p>
-                        Lorem ipsum dolor sit amet consectetur, <span>adipisicing elit</span>. Quidem vero numquam culpa
-                        omnis distinctio suscipit placeat tempore ab? Quisquam dolorum delectus assumenda officiis doloremque provident labore sapiente
-                        quidem itaque error. Lorem ipsum dolor, sit amet consectetur adipisicing elit. At cum, optio,
-                        cumque illum ipsa illo a omnis voluptatibus <span>provident amet magnam</span> quibusdam nisi, minus fugit quam itaque. Corporis, maxime aliquam.
-                    </p>
-                    <button className='btnContact'>Download CV</button>
+                    <p>{t("About.p-one")}</p>
+                    <p>{t("About.p-two")}</p>
+                    <button className='btnContact'>
+                        <a href="../assets/documents/FacundoBenitez-ES.pdf" target="_blank" rel="noopener noreferrer">
+                            {t("About.btnDownload")}
+                        </a>
+                    </button>    
                 </div>
 
                 <img className='imgAbout' src={imgFacu} />

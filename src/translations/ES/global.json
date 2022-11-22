@@ -1,0 +1,40 @@
+{
+    "FrontPage":{
+        "regard" : "Hola, soy",
+        "job" : "Desarrollador Web",
+        "btnContact": "Contactame"
+    },
+    "Sidebar":{
+        "about": "Sobre mi",
+        "skills": "Habilidades",
+        "experience": "Experiencia",
+        "projects": "Proyectos",
+        "contact": "Contacto"
+    },
+    "About":{
+        "title": "Sobre mi",
+        "p-one": "Mi nombre es Facundo y soy programador desde Argentina. Me apasiona crear paginas y aplicaciones web que me exigan a mejorar como profesional, mi objetivo es poder aportar en el desarrollo de proyectos que mejoren las experiencias de los usuarios y sean de gran utilidad dentro de Internet. ",
+        "p-two": "Lo que me lleva a programar es el deseo de crear las herramientas que utilizo en el dia a dia, me encantan los videojuegos, ver series, usar las redes y usar blockchain y me emociona pensar que puedo ser parte de su desarrollo 😁",
+        "btnDownload": "Descargar CV"
+    },
+    "Skills":{
+        "title": "Habilidades",
+        "languages": "Lenguajes",
+        "frameworks": "Librerías",
+        "moreResources": "Más recursos"
+    },
+    "Experience":{
+        "title": "Experiencia",
+        "experience-one": "DESARROLLADOR WEB",
+        "experience-two": "PROGRAMADOR Y SOPORTE TÉCNICO - 2022",
+        "experience-li-one": "Diseño, desarrollo y lanzamiento de mi primer portafolio personal.",
+        "experience-li-two": "Diseño y desarrollo de 'proyectos' utilizando diferentes lenguajes, librerias, diseños resposivos, efectos y metodologías.",
+        "experience-li-three": "Diseño, desarrollo y lanzamiento de mi segundo portafolio personal.",
+        "experience-li-four": "Diseño y desarrollo de plugin compatible para WordPress, con caracteristicas básicas como diferentes roles, algunos CPT y plantillas personalizadas.",
+        "experience-li-five": "Proyecto de curso: Creación de Blog con MERN STACK (MongoDB, ExpressJS, ReactJS, NodeJS) y Postman.",
+        "experience-li-six": "Proyecto de curso: Creación de Blog con MEAN STACK (MongoDB, ExpressJS, Angular, NodeJS), TypeScript y Postman.",
+        "experience-company": "Compañia: Your Inspiration Solutions",
+        "experience-p": "Mantención y soporte a clientes mediante código JavaScript, JQuery, PHP y CSS en plugins compatibles con WordPress y WooCommerce."
+    }
+
+}

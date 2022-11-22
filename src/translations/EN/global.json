@@ -1,0 +1,39 @@
+{
+    "FrontPage":{
+        "regard" : "Hello, I'm",
+        "job" : "Web Developer",
+        "btnContact": "Contact me"
+    },
+    "Sidebar":{
+        "about": "About",
+        "skills": "Skills",
+        "experience": "Experience",
+        "projects": "Projects",
+        "contact": "Contact"
+    },
+    "About":{
+        "title": "About",
+        "p-one": "My name's Facundo and I'm a programmer from Argentina. I enjoy creating web pages and applications that make me improve as a professional, my goal is to be able to contribute to the development of projects that improve user experiencies and be very useful for internet.",
+        "p-two": "What brings me to programming is the desire to create the tools I use on a daily basis, I love the videogames, watch series, use  social networks, and use blockchain, and it excites me to think that I can be part of its development 😁",
+        "btnDownload": "Download CV"
+    },
+    "Skills":{
+        "title": "Skills",
+        "languages": "Languages",
+        "frameworks": "Frameworks",
+        "moreResources": "More resources"
+    },
+    "Experience":{
+        "title": "Experience",
+        "experience-one": "WEB DEVELOPER",
+        "experience-two": "PROGRAMMER AND TECHNICAL SUPPORT - 2022",
+        "experience-li-one": "Design, development and launch of my first personal portfolio.",
+        "experience-li-two": "Design, development of projects using different languages, frameworks, effects, responsive designs and methodologies.",
+        "experience-li-three": "Design, development and launch of my second personal portfolio.",
+        "experience-li-four": "Design, development of plugin for WordPress with basic features like differents roles, some CPT and custom templates.",
+        "experience-li-five": "Project course: Blog creation with MERN STACK (MongoDB, ExpressJS, ReactJS, NodeJS) and Postman.",
+        "experience-li-six": "Project course: Blog creation with MEAN STACK (MongoDB, ExpressJS, Angular, NodeJS) TypeScript and Postman.",
+        "experience-company": "Company: Your Inspiration Solutions",
+        "experience-p": "Maintenance and customer support through JavaScript, JQuery, PHP y CSS code in plugins compatible with WordPress and WooCommerce."
+    }
+}
