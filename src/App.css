@@ -301,14 +301,32 @@ body{
 }
 .itemProject{
   width: 400px;
-  min-height: 400px;
-  max-height: 400px;
   background-color: #222;
-  padding-top: 10px;
   margin: 15px;
+  padding-bottom: 20px;
+  text-align: center;
 }
 .containerCardsProjects h3{
   text-align: center;
+  border-bottom: 4px solid #04a08b;
+  width: fit-content;
+  margin: 15px auto 15px;
+}
+.imgProject{
+  width: 100%;
+  height: 200px;
+
+}
+.itemProject a{
+  color: #fff;
+  transition: all 0.5s;
+  text-decoration: none;
+}
+.itemProject a:hover{
+  color: #04a08b
+}
+.itemProject p{
+  align-items: center;
 }
 
 /* CONTACT  */
